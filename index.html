@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Курсовая Веб-технологии</title>
+    <script>
+      function getGreeting() {
+        var currentTime = new Date();
+        var currentHour = currentTime.getHours();
+        var greeting;
+  
+        if (currentHour < 6) {
+          greeting = "Доброй ночи";
+        } else if (currentHour < 12) {
+          greeting = "Доброе утро";
+        } else if (currentHour < 18) {
+          greeting = "Добрый день";
+        } else {
+          greeting = "Добрый вечер";
+        }
+  
+        return greeting;
+      }
+  
+      function displayGreeting() {
+        var greeting = getGreeting();
+        alert(greeting);
+      }
+    </script>
+</head>
+<body onload="displayGreeting()">
+  <div class="backgr">
+    <div class="items">
+      <div class="logotype-header"></div>
+  
+      <div class="menu">
+        <nav>
+          <ul >
+            <li class="heading-elements"><a class="text-menu" href="http://127.0.0.1:5500/index1.html"><b>ОБЩЕЖИТИЯ</b></a></li>
+            <li class="heading-elements"><a class="text-menu" href="http://127.0.0.1:5500/index2.html"><b>УЧЕБНЫЕ КОРПУСА</b></a></li>
+            <li class="heading-elements"><a class="text-menu" href="http://127.0.0.1:5500/index3.html"><b>СПОРТ КОМПЛЕКСЫ</b></a></li>
+            <li class="heading-elements"><a class="text-menu" href="http://127.0.0.1:5500/index4.html"><b>КАФЕ И СТОЛОВЫЕ</b></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="backgr1">
+      <li class="elements"><a class="text-menu" href="https://www.timacad.ru/"><b>О НАС</b></a></li>
+      <li class="elements"><a class="text-menu" href="https://sdo.timacad.ru/"><b>СДО</b></a></li>
+      <li class="elements"><a class="text-menu" href="https://yandex.ru/maps/?um=constructor%3Aa82b8a84f2fb55f7e1aae4135d8911a4000582a72d9e6fd70505a4fc6baea2bf&source=constructorLink"><b>АДРЕС</b></a></li>
+    </div>
+    <div class="poloska1"></div>
+    <div class="poloska2"></div>
+    <div class="map">
+      <div class="map1"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa82b8a84f2fb55f7e1aae4135d8911a4000582a72d9e6fd70505a4fc6baea2bf&amp;width=794&amp;height=394&amp;lang=ru_RU&amp;scroll=true"></script></div>
+    </div>

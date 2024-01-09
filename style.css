@@ -1,0 +1,186 @@
+html {
+    height: 100%;
+    width: 1920px;
+  }
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(rgb(64, 169, 83) 25%,rgb(42, 129, 58) 100%);
+} 
+.logotype-header {
+    background-image: url("logo.svg");
+    width: 140px;
+    height: 136px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.items{
+    display: flex;
+    font-size: 0.6cm;
+}
+.backgr{
+    background-image: url(lis.jpg);
+    height: 235px;
+}
+.backgr1{
+    background: radial-gradient(rgb(114, 114, 114) 25%,rgb(78, 78, 78) 100%);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 300px;
+    height: 495px;
+}
+.menu{
+    margin-top: 90px;
+    margin-left: 75px;
+}
+.heading-elements{
+    display: inline;
+    padding: 0 30px 0 30px;
+}
+.elements{
+    margin-left: 50px;
+    display: block;
+    padding: 60px 0 60px 0;
+    font-size: 0.8cm;
+}
+.text-menu{
+    background: rgb(56, 145, 72);
+    color: white;
+    border-radius: 10px;
+    padding: 4px 5px 4px 5px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color: white;
+    
+}
+.poloska1{
+    background-color: white;
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    width: 5px;
+    height: 510px;
+}
+.poloska2{
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 235px;
+    width: 1920px;
+    height: 5px;
+}
+.map{
+    background: white;
+    position: absolute;
+    left: 170px;
+    bottom: 50px;
+    width: 800px;
+    height: 400px;
+}
+.map1{
+    
+    position: absolute;
+    left: 3px;
+    bottom: 3px;
+    width: 794px;
+    height: 394px;
+}
+.foto1{
+    background: white;
+    position: absolute;
+    left: 100px;
+    margin-top: 30px;
+    width: 506px;
+    height: 306px;  
+}
+.foto2{
+    background: white;
+    position: absolute;
+    left: 700px;
+    margin-top: 30px;
+    width: 506px;
+    height: 306px;  
+}
+.inline{
+    display: inline;
+}
+.menu1{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.items1{
+    display: flex;
+    font-size: 1cm;
+}
+.items2{
+    display: flex;
+    font-size: 0.8cm;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.items3{
+    display: flex;
+    font-size: 0.8cm;
+    margin-left: 100px;
+    margin-top: 440px;
+}
+.konec{
+    background: radial-gradient(rgb(114, 114, 114) 25%,rgb(78, 78, 78) 100%);
+    margin-top: 500px;
+    height: 170px;
+    width: 1920px;
+}
+.poloska3{
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 6511px;
+    width: 1920px;
+    height: 5px;
+}
+.menu2{
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.items4{
+    display: flex;
+    font-size: 0.8cm;
+}
+.last-elements{
+    display: inline;
+    padding: 0 50px 0 50px;
+}
+.poloska4{
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 13150px;
+    width: 1920px;
+    height: 5px;
+}
+.poloska5{
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 5558px;
+    width: 1920px;
+    height: 5px;
+}
+.poloska6{
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 2243px;
+    width: 1920px;
+    height: 5px;
+}
+img{
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 500px;
+    height: 300px;
+}
